@@ -1,0 +1,62 @@
+.container{
+	margin-top:1em;
+}
+
+header .ul{
+	float: right;
+}
+
+.ul{
+	display: inline-block;
+	list-style: none;
+}
+
+.ul li{
+	display: inline-block;
+	height : 100px;
+	margin-right: 10px;
+}
+
+.ul li a{
+	color: #464948;
+	font-size: 12px;
+}
+
+input {
+	width : 60%;
+}
+
+button{
+	padding: 10px;
+	width: 20%;
+}
+
+.footerul{
+	display: inline-block;
+	position : relative;	
+	width:100%;
+	margin : 0;
+}
+
+.footerul li{
+	display: inline-block;
+	position : relative;
+	height : 20px;
+	list-style: none;
+
+}
+
+.footerul li a{
+	color: #464948;	
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+footer{
+	display: inline-block;
+	position: fixed;
+	bottom: 0px;
+	width:100%;
+	background-color: #E5E9E8;
+	border-top: solid 1px #C7CECD;
+}
